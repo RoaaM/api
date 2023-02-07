@@ -9,7 +9,7 @@ app = FastAPI()
 @app.get('/')
 # router (html or json in api)
 def root():
-    return "Hello Worlds"
+    return "Hello"
             
 
 
